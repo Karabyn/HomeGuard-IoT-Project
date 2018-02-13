@@ -73,6 +73,7 @@
     <Component id="1090" name="EXTI" path="" type="2"/>
     <Component id="1094" name="MISC" path="" type="2"/>
     <Component id="1097" name="SPI" path="" type="2"/>
+    <Component id="1099" name="TIM" path="" type="2"/>
     <Component id="1100" name="USART" path="" type="2"/>
   </Components>
   <Files>
@@ -80,6 +81,7 @@
     <File name="cmsis_core/core_cmInstr.h" path="cmsis_core/core_cmInstr.h" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_usart.c" path="cmsis_lib/source/stm32f0xx_usart.c" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f0xx.s" path="cmsis_boot/startup/startup_stm32f0xx.s" type="1"/>
+    <File name="cmsis_lib/source/stm32f0xx_tim.c" path="cmsis_lib/source/stm32f0xx_tim.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_rcc.h" path="cmsis_lib/include/stm32f0xx_rcc.h" type="1"/>
     <File name="cmsis_boot/system_stm32f0xx.c" path="cmsis_boot/system_stm32f0xx.c" type="1"/>
     <File name="cmsis_boot" path="" type="2"/>
@@ -91,24 +93,25 @@
     <File name="stm32f0xx_it.c" path="stm32f0xx_it.c" type="1"/>
     <File name="cmsis_boot/stm32f0xx.h" path="cmsis_boot/stm32f0xx.h" type="1"/>
     <File name="Debug" path="" type="2"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_gpio.c" path="cmsis_lib/source/stm32f0xx_gpio.c" type="1"/>
     <File name="cmsis_lib" path="" type="2"/>
-    <File name="cmsis_lib/source/stm32f0xx_exti.c" path="cmsis_lib/source/stm32f0xx_exti.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_gpio.h" path="cmsis_lib/include/stm32f0xx_gpio.h" type="1"/>
-    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="cmsis_lib/source/stm32f0xx_exti.c" path="cmsis_lib/source/stm32f0xx_exti.c" type="1"/>
     <File name="cmsis_core/core_cm0.h" path="cmsis_core/core_cm0.h" type="1"/>
     <File name="cmsis_lib/source/stm32f0xx_rcc.c" path="cmsis_lib/source/stm32f0xx_rcc.c" type="1"/>
     <File name="cmsis_lib/include/stm32f0xx_misc.h" path="cmsis_lib/include/stm32f0xx_misc.h" type="1"/>
     <File name="NRF24L01.h" path="NRF24L01.h" type="1"/>
-    <File name="cmsis_lib/source" path="" type="2"/>
     <File name="cmsis_lib/include/stm32f0xx_exti.h" path="cmsis_lib/include/stm32f0xx_exti.h" type="1"/>
+    <File name="cmsis_lib/source" path="" type="2"/>
     <File name="stm32f0xx_conf.h" path="stm32f0xx_conf.h" type="1"/>
     <File name="Debug/Debug.c" path="Debug/Debug.c" type="1"/>
     <File name="syscalls" path="" type="2"/>
     <File name="cmsis_lib/include/stm32f0xx_spi.h" path="cmsis_lib/include/stm32f0xx_spi.h" type="1"/>
-    <File name="cmsis_lib/source/stm32f0xx_spi.c" path="cmsis_lib/source/stm32f0xx_spi.c" type="1"/>
     <File name="cmsis_boot/system_stm32f0xx.h" path="cmsis_boot/system_stm32f0xx.h" type="1"/>
+    <File name="cmsis_lib/source/stm32f0xx_spi.c" path="cmsis_lib/source/stm32f0xx_spi.c" type="1"/>
     <File name="cmsis_lib/include" path="" type="2"/>
+    <File name="cmsis_lib/include/stm32f0xx_tim.h" path="cmsis_lib/include/stm32f0xx_tim.h" type="1"/>
     <File name="stm32f0xx_it.h" path="stm32f0xx_it.h" type="1"/>
     <File name="NRF24L01.c" path="NRF24L01.c" type="1"/>
     <File name="main.c" path="main.c" type="1"/>
